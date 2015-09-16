@@ -24,6 +24,6 @@ using Interact
 The best way to learn to use the interactive widgets is to try out the example notebooks in the doc/notebooks/ directory. Start up IJulia from doc/notebooks/:
 
 ```{.shell execute="false"}
-ipython notebook --profile julia
+ipython notebook
 ```
 Interact needs IJulia to be running on Jupyter/IPython 3.0
