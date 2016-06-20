@@ -28,4 +28,8 @@ ipython notebook --profile julia
 ```
 Interact needs IJulia to be running on Jupyter/IPython 3.x or Jupyter 4.x.
 For Jupyter 4.x, the Python packages `jupyter` and `ipywidgets` must be installed.
+
+If you use a non-conda installer to install `ipywidgets`, you will need to enable `widgetsnbextension` by running the following command:
+```
+jupyter nbextension enable --py widgetsnbextension
 ```
